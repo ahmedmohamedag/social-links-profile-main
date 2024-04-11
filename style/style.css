@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Inter;
+    src:url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --mainColor :#0e0e0e;
+    --bg:#1f1f1f;
+    --hovrt-btn:#c5f827;
+    --bg-btn:#333333;
+}
+body{
+    /* min-height: 100vh; */
+    background-color:var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    flex-direction: column;
+    padding: 2rem 0;
+    
+}
+
+section{
+    background-color: var(--bg);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+section .title-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+section .title-group img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 6.5rem;  /* 104px */ 
+    height: 6.5rem; /* 104px */
+}
+section .title-group h2{
+    margin-top: 1rem;
+}
+section .title-group p{
+    color: var(--hovrt-btn);
+    margin: .8rem 0;
+    
+}
+section >p{
+    font-size: .8rem;
+}
+section .link-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: .7rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+section .link-group  a{
+    color: #fff;
+    background-color: var(--bg-btn);
+    width: 100%;
+    padding: 10px;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -ms-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+}
+section .link-group a:hover {
+    background-color: var(--hovrt-btn);
+    color: var(--bg);
+}
+
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+     color: white;
+     width: 100%;
+     padding: 1rem;
+     border-top: 1px solid rgb(214, 208, 208);
+     margin-top: 1rem;
+     font-size: 1rem;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
