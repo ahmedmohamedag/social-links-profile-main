@@ -31,7 +31,7 @@ body{
 
 section{
     background-color: var(--bg);
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,8 +55,8 @@ section .title-group img{
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    width: 10rem;  
-    height: 10rem; 
+    width: 10rem;  /* 104px */ 
+    height: 10rem; /* 104px */
 }
 section .title-group h2{
     margin-top: 1rem;
@@ -78,6 +78,7 @@ section .link-group{
     width: 100%;
     text-align: center;
     margin-top: 1rem;
+
 }
 
 
@@ -85,7 +86,7 @@ section .link-group  a{
     color: #fff;
     background-color: var(--bg-btn);
     width: 100%;
-    padding: 10px;
+    padding: 10px 5rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
