@@ -55,8 +55,8 @@ section .title-group img{
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    width: 6.5rem;  /* 104px */ 
-    height: 6.5rem; /* 104px */
+    width: 8rem;  /* 104px */ 
+    height: 8rem; /* 104px */
 }
 section .title-group h2{
     margin-top: 1rem;
