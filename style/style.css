@@ -31,7 +31,7 @@ body{
 
 section{
     background-color: var(--bg);
-    padding: 3rem;
+    padding: 1rem 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,8 +55,8 @@ section .title-group img{
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    width: 8rem;  /* 104px */ 
-    height: 8rem; /* 104px */
+    width: 10rem;  
+    height: 10rem; 
 }
 section .title-group h2{
     margin-top: 1rem;
